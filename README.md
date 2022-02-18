@@ -10,6 +10,7 @@ So we implemented a specific case to solve this situation by using multiple thre
 ## Difference between pragma omp critical and single. 
 
 `Single`: Lets you specify that a section of code should be executed on a single thread, not necessarily the master thread.
+has an implicit barrier upon completion of the region, where all threads wait for synchronization.
 
 
 `Critical`: specify that code is executed by one thread at a time, it is executed as many times as there are threads.
