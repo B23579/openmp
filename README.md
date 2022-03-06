@@ -17,4 +17,4 @@ has an implicit barrier upon completion of the region, where all threads wait fo
 
 
 
-single and critical are two very different things. As you mentioned.
+single and critical are two very different things. 
